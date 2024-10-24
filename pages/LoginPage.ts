@@ -13,8 +13,8 @@ export class LoginPage {
 
   async login() {
     await this.testAccountButton.click();
-    await this.page.waitForTimeout(2000);
+    await this.page.waitForTimeout(3000);
     await this.loginButton.click();
-    await this.page.waitForTimeout(2000);
+    await this.page.waitForTimeout(3000);
   }
 }
